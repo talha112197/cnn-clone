@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Welcome To CNN</title>
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- header starts here -->
+    <header id="header">
+        <nav class="navbar navbar-dark bg-black navbar-expand-lg">
+            <div class="container nav-container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/images/logos/logo_cnn.png" class="img-fluid" alt="logo">
+                </a>
+
+                <!-- hamburger for mobile devices -->
+                <button class="navbar-toggler" type="button" data-target="#collapse" data-toggle="collapse"
+                    aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapse">
+                    <ul class="navbar-nav custom-nav-items">
+                        <li class="nav-item"><a href="" class="nav-link">Regions</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Politics</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Money</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Entertainment</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Tech</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Sport</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Travel</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Style</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Health</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Video</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">VR</a></li>
+                    </ul>
+                    
+                    
+                    <ul class="navbar-nav ml-auto">
+                             
+                        <div class="dropdown">
+                        
+                            <button class="btn dropdown-toggle dropdown-text" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                International Edition <i class="fas fa-plus"></i>
+                            </button>
+
+                            <div class="dropdown-menu custom-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">U.S</a>
+                                <a class="dropdown-item" href="#">Arabic</a>
+                                <a class="dropdown-item" href="#">Espanol</a>
+                                <a class="dropdown-item" href="#">Pakistan</a>
+
+                                <div class="dropdown-divider"></div>
+
+                                <div class="preferences-content">
+                                    <p class="text-right">Set Edition Preferences:</p>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="preferences"
+                                            id="preference-1" value="U.S">
+                                        <label class="form-check-label" for="preference-1">
+                                            U.S
+                                        </label>
+                                    </div> <!-- form-check-1 ends here -->
+
+                                    <div class="form-check form-check-inline float-right">
+                                        <input class="form-check-input" type="radio" name="preferences"
+                                            id="preference-2" value="International" checked>
+                                        <label class="form-check-label" for="preference-2">
+                                            International
+                                        </label>
+                                    </div> <!-- form-check-2 ends here -->
+
+                                    <button type="submit"
+                                        class="btn btn-outline-secondary float-right mt-2">Confirm</button>
+
+                                </div> <!-- preferences content div ends here -->
+
+                            </div> <!-- dropdown items div ends here -->
+                        </div> <!-- dropdown ends here -->
+
+
+                        <div class="page-search my-auto">
+                            <div class="form-check custom-checkbox">
+                                <input class="form-check-input" type="checkbox" id="searchbox" hidden>
+                                <input type="search" class="page-search-field" placeholder="Search CNN...">
+                                <label class="form-check-label page-search-field-text" for="searchbox">Search >></label>
+                                <label class="form-check-label" for="searchbox"><i class="fas fa-search"></i></label>
+                            </div> <!-- form-check ends here -->
+                        </div> <!-- page-search ends here -->
+
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle dropdown-text" type="button" id="dropdownMenuButton2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <i class="fas fa-bars"></i>
+                            </button>
+
+                            <div class="dropdown-menu extended-dropdown-menu">
+
+                                <div class="row extended-row">
+
+                                    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                                        <h4 class="text-white">Regions</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">U.S</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Africa</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Americas</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Asia</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">China</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Europe</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Middle East</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Opinion</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                                        <h4 class="text-white">U.S Politics</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">45</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Congress</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Security</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">The Nine</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Trumpmerica</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">State</a></li>
+
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                                        <h4 class="text-white">Money</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">Business</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Markets</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Tech</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Luxury</a></li>
+
+
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 mt-3 col-sm-4 col-4">
+                                        <h4 class="text-white">Entertainment</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">Stars</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Screen</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Binge</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Culture</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Media</a></li>
+
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 mt-3 col-sm-4 col-4">
+                                        <h4 class="text-white">Tech</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">Business</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Culture</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Gadgets</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Future</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Startups</a></li>
+
+
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 mt-3 col-sm-4 col-4">
+                                        <h4 class="text-white">Sport</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">Football</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Golf</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Tennis</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Motorsport</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Horseracing</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Equestrian</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Sailing</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Skiing</a></li>
+
+
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 mt-3 col-md-3 col-sm-4 col-4">
+                                        <h4 class="text-white">Travel</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">Aviation</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Business Traveller</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Destinations</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Features</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Food/Drink</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Hotels</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Partners Hotels</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Skiing</a></li>
+
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 mt-3 col-md-3 col-sm-4 col-4">
+                                        <h4 class="text-white">Style</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">Fashion</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Design</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Architechture</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Arts</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Autos</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Luxury</a></li>
+
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-sm-4 col-4 mt-3">
+                                        <h4 class="text-white">Health</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">Diet + Fitness</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Living Well</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Parenting + Family</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Vital Signs</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-sm-4 col-4 mt-3">
+                                        <h4 class="text-white">Features</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">Freedom Project</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Impact Your World</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Inside Africa</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">2 Degrees</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">All Features</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-sm-4 col-4 mt-3">
+                                        <h4 class="text-white">Video</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">Video News</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Feature Shows</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">HLN</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">TV Shows</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">TV Schedule</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Faces Of CNN Worldwide</a>
+                                            </li>
+                                            <li class="nav-item"><a href="" class="nav-link">CNNVR</a></li>
+
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-3 col-sm-4 col-4 mt-3">
+                                        <h4 class="text-white">More...</h4>
+                                        <ul class="navbar-nav extended-nav-items d-flex flex-column">
+                                            <li class="nav-item"><a href="" class="nav-link">Weather</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">CNN Heroes</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">CNN Profiles</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Leadership</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Pressroom</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">Partner Sites</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link">iReport</a></li>
+
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="row extended-bottom-row no-gutters p-3">
+                                        <div
+                                            class="col-lg-12 col-md-12 col-sm-12 d-flex flex-row justify-content-around align-items-center">
+                                            <div class="content mt-1">
+                                               
+                                                <p class="editions d-inline">
+                                                    <img src="assets/images/logos/logo-us.png"
+                                                        class="img-fluid extended-menu-images" alt="cnn logo us">
+                                                    <span class="text-white ml-2 mr-2">U.S</span>
+                                                </p>
+
+                                                <p class="editions d-inline ml-4">
+                                                    <img src="assets/images/logos/logo-esp.png"
+                                                        class="img-fluid extended-menu-images" alt="cnn logo espanol">
+                                                    <span class="text-white ml-2 mr-2">Espanol</span>
+                                                </p>
+
+                                                <p class="editions d-inline mb-4 ml-4">
+                                                    <img src="assets/images/logos/logo-ar.png"
+                                                        class="img-fluid extended-menu-image-ar" alt="cnn logo arabic">
+                                                    <span class="text-white ml-2 mr-5">Arabic</span>
+                                                </p>
+                                                
+                                                <div class="preferences-div">
+                                                <p class="text-white-50 mr-3 preferences-p d-inline">Set Edition Preferences:</p>
+
+                                                <div class="form-check form-check-inline text-white-50">
+                                                    <input class="form-check-input" type="radio" name="preferences"
+                                                        id="preference-3" value="U.S">
+                                                    <label class="form-check-label" for="preference-3">
+                                                        U.S
+                                                    </label>
+                                                </div> <!-- form-check-1 ends here -->
+
+                                                <div class="form-check form-check-inline text-white-50">
+                                                    <input class="form-check-input" type="radio" name="preferences"
+                                                        id="preference-4" value="International" checked>
+                                                    <label class="form-check-label" for="preference-4">
+                                                        International
+                                                    </label>
+                                                </div> <!-- form-check-2 ends here -->
+
+                                                <button type="submit"
+                                                    class="btn btn-outline-secondary extended-button float-right">Confirm</button>
+                                               </div>
+
+
+                                            </div> <!-- content div ends here -->
+                                        </div>
+                                        <!--col-lg-12 ends here -->
+                                    </div>
+
+                                </div> <!-- row div ends here -->
+
+                            </div> <!-- dropdown-menu ends here -->
+                        </div> <!-- second dropdown ends here -->
+
+
+
+                    </ul>
+
+                </div> <!-- collapse div ends here -->
+            </div> <!-- container div ends here -->
+        </nav>
+        <!-- navbar ends here -->
+    </header>
+    <!-- header ends here -->
+
+    <main>
+        <section id="showcase" class="py-3">
+            <div class="container-fluid padding">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <h4 class="display-4 showcase-heading text-capitalize text-center font-weight-bold">Searching for a lifeline</h4>
+
+                        <div class="article-info">
+                            <img src="assets/images/articles/article-1.jpg" alt="article-1" class="img-fluid">
+                            <p class="article-headline text-uppercase bg-danger">Uk election fallout</p>
+
+                            <h5 class="article-heading ">
+                                <a class="text-capitalize" href="#">Brit pm may has lost control of her party,
+                                    parliament, policy manifesto and brexit</a>
+                            </h5>
+
+                            <hr class="article-hr">
+
+                            <p class="more-articles">
+                                <a href="#">What UK election earthquake means for the world</a>
+                            </p>
+
+                            <hr class="article-hr">
+                            <p class="more-articles">
+                                <a href="#">What do UK Conservatives go from here? <i
+                                        class="far fa-play-circle ml-2"></i></a>
+                            </p>
+                        </div>
+                    </div> <!-- col-lg-5 ends here -->
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+
+
+                        <div class="spotlight-article-content">
+                            <img src="assets/images/articles/article-2.jpg" alt="article-2" class="img-fluid w-100">
+
+                            <p class="spotlight-article-content-info"><a class="spotlight-article-link" href="#">Engine
+                                    part rips off passenger jet after take off</a></p>
+                        </div>
+
+                        <div class="spotlight-article-content">
+                            <img src="assets/images/articles/article-3.jpg" alt="article-3" class="img-fluid w-100">
+
+                            <p class="spotlight-article-content-info-2"><a class="spotlight-article-link" href="#">Trump
+                                    Crashes New Jersey Wedding</a></p>
+                        </div>
+                    </div> <!-- col-lg-3 ends here -->
+
+                    <div class="col-lg-4 col-md-6  col-sm-12">
+                        <div class="card custom-card">
+                            <div class="card-header custom-card-header">
+                                <h4 class="card-title m-0">Top Stories</h4>
+
+                            </div>
+
+                            <div class="card-img-top">
+                                <img src="assets/images/articles/article-4.jpg" alt="article-4" class="img-fluid w-100">
+                            </div>
+
+                            <div class="card-body custom-card-body">
+                                <h5 class="article-heading ">
+                                    <a class="text-capitalize" href="#">Macron on course for huge gains in French
+                                        parliamentary elections</a>
+                                </h5>
+
+                                <hr class="article-hr">
+
+                                <p class="top-story">
+                                    <a href="#">Russia cloud settles in over Trump</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Puerto Rico votes to become 51st US state</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Arrests as South Korean military conducts 'gay-witch-hunt'</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">If there are Comey tapes, does Trump have to turn them over?</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Gulf crisis threatens to tear families apart</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">EX-US attorney opens up about Trump calls</a>
+                                </p>
+                            </div>
+
+                        </div> <!-- card ends here -->
+                    </div> <!-- col-lg-4 ends here -->
+                </div> <!-- row div ends here -->
+            </div> <!-- container div ends here -->
+        </section> <!-- showcase section ends here -->
+
+
+        <section id="international-news">
+            <div class="container-fluid padding">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card custom-card">
+                            <div class="card-header custom-card-header">
+                                <h4 class="card-title m-0">Around The World</h4>
+
+                            </div>
+
+                            <div class="card-img-top">
+                                <img src="assets/images/articles/article-5.jpg" alt="article-5" class="img-fluid w-100">
+                            </div>
+
+                            <div class="card-body custom-card-body">
+                                <h5 class="article-heading ">
+                                    <a class="text-capitalize" href="#">Rafael Nadal makes history at French Open</a>
+                                </h5>
+
+                                <hr class="article-hr">
+
+                                <p class="top-story">
+                                    <a href="#">Melania moves into the White House</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">White House denies Trump will delay UK visit</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Iran sends planes stuffed with food to Qatar</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Qatar hires Bush attorney general</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Uber workplace culture under fire</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">TV host after crash: 'I'm not dead'</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">London: Fake suicide belt photos released</a>
+                                </p>
+                            </div> <!-- card body ends here -->
+                        </div> <!-- card ends here -->
+                    </div> <!-- col-lg-3 ends here -->
+
+
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div class="card custom-card">
+                            <div class="card-header custom-card-header">
+                                <h4 class="card-title m-0">Featured</h4>
+                            </div>
+
+                            <div class="card-img-top">
+                                <img src="assets/images/articles/article-6.jpg" alt="article-6" class="img-fluid w-100">
+                            </div>
+
+                            <div class="card-body  custom-card-body">
+                                <h5 class="featured-article-heading">
+                                    <a class="text-capitalize" href="#">How Pulse massacre pushed some back into the
+                                        closet</a>
+                                </h5>
+
+                                <div class="row no-gutters mt-3">
+                                    <div class="col-lg-5 col-md-6 col-sm-12">
+                                        <img src="assets/images/articles/article-7.jpg" alt="article-7"
+                                            class="img-fluid w-100">
+                                    </div> <!-- col-lg-5 ends here -->
+
+                                    <div class="col-lg-7 col-md-6 col-sm-12">
+                                        <h5 class="featured-middle-heading">
+                                            <a class="text-capitalize" href="#">Wealth obsession gone too far?</a>
+                                        </h5>
+                                    </div> <!-- col-lg-7 ends here -->
+
+                                    <div class="col-lg-5 mt-2">
+                                        <img src="assets/images/articles/article-8.jpg" alt="article-8"
+                                            class="img-fluid w-100">
+                                    </div> <!-- col-lg-5 ends here -->
+
+                                    <div class="col-lg-7">
+                                        <h5 class="featured-middle-heading">
+                                            <a class="text-capitalize" href="#">Why these are 'meals rejected by
+                                                everyone?</a>
+                                        </h5>
+                                    </div> <!-- col-lg-7 ends here -->
+                                </div> <!-- 2nd row div ends here -->
+                            </div> <!-- card body ends here -->
+                        </div> <!-- card ends here -->
+                    </div> <!-- col-lg-5 ends here -->
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 top-rated-row">
+                        <div class="card custom-card">
+                            <div class="card-header custom-card-header">
+                                <h4 class="card-title m-0">Top Rated</h4>
+                            </div>
+
+                            <div class="card-body custom-card-body">
+
+                                <div class="row no-gutters">
+                                                                               
+                                    <div class="col-lg-3 col-md-12 col-sm-12">
+                                        <img src="assets/images/articles/article-9.jpg" alt="article-9"
+                                            class="img-fluid w-100">
+                                    </div> <!-- col-lg-3 ends here -->
+
+                                    <div class="col-lg-9 col-md-12 col-sm-12">
+                                        <h5 class="more-news-heading">
+                                            <a class="text-capitalize" href="#">Sharapova pulls out of Wimbledon
+                                                Qualifying</a>
+                                        </h5>
+                                    </div> <!-- col-lg-9 ends here -->
+                                    
+                                     
+                                    <div class="col-lg-3 col-md-12 col-sm-12 mt-2">
+                                        <img src="assets/images/articles/article-10.jpg" alt="article-10"
+                                            class="img-fluid w-100">
+                                    </div> <!-- col-lg-3 ends here -->
+
+                                    <div class="col-lg-9 col-md-12 col-sm-12">
+                                        <h5 class="more-news-heading">
+                                            <a class="text-capitalize" href="#">Why there are 47 Lebanons in US?</a>
+                                        </h5>
+                                    </div> <!-- col-lg-9 ends here -->
+                                   
+                               
+                    </div> <!-- 2nd row ends here -->
+                </div> <!-- card body ends here -->
+            </div> <!-- card ends here -->
+            </div> <!-- col-lg-4 ends here -->
+            </div> <!-- row div ends here -->
+            </div> <!-- container div ends here -->
+        </section> <!-- international section ends here -->
+
+        <section id="more-news">
+            <div class="container-fluid padding">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card custom-card">
+                            <div class="card-header custom-card-header">
+                                <h4 class="card-title m-0">Take A Closer Look</h4>
+
+                            </div>
+
+                            <div class="card-img-top">
+                                <img src="assets/images/articles/article-11.jpg" alt="article-11"
+                                    class="img-fluid w-100">
+                            </div>
+
+                            <div class="card-body custom-card-body">
+                                <h5 class="article-heading ">
+                                    <a class="text-capitalize" href="#">'Wonder Woman' soars, 'The Mummy' stagers</a>
+                                </h5>
+
+                                <div class="row no-gutters">
+                                    <div class="col-lg-3 col-md-12 col-sm-12">
+                                        <img src="assets/images/articles/article-12.jpg" alt="article-12"
+                                            class="img-fluid w-100">
+                                    </div>
+                                    <div class="col-lg-9 col-md-12 col-sm-12">
+                                        <h5 class="more-news-heading">
+                                            <a class="text-capitalize" href="#">Hamilton gets sixth Canadian Grand Prix
+                                                win</a>
+                                        </h5>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-12 col-sm-12 mt-2">
+                                        <img src="assets/images/articles/article-13.jpg" alt="article-13"
+                                            class="img-fluid w-100">
+                                    </div>
+                                    <div class="col-lg-9 col-md-12 col-sm-12">
+                                        <h5 class="more-news-heading">
+                                            <a class="text-capitalize" href="#">Orlando's new 'culture of
+                                                compassion'</a>
+                                        </h5>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-12 col-sm-12 mt-2">
+                                        <img src="assets/images/articles/article-14.jpg" alt="article-14"
+                                            class="img-fluid w-100">
+                                    </div>
+                                    <div class="col-lg-9 col-md-12 col-sm-12">
+                                        <h5 class="more-news-heading">
+                                            <a class="text-capitalize" href="#">Want to be happy and successful? Try
+                                                compassion</a>
+                                        </h5>
+                                    </div>
+
+                                </div> <!-- second row ends here -->
+
+                            </div> <!-- card body ends here -->
+                        </div> <!-- card ends here -->
+                    </div> <!-- col-lg-3 ends here -->
+
+
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div class="card custom-card">
+
+                            <div class="card-img-top">
+                                <img src="assets/images/articles/article-15.jpg" alt="article-15"
+                                    class="img-fluid w-100">
+                            </div>
+
+                            <div class="card-body bg-light custom-card-body">
+                                <h5 class="more-news-front-heading">
+                                    <a class="text-capitalize" href="#">Who were the big winners at the Tony Awards</a>
+                                </h5>
+
+                                <div class="row featured-middle-row mt-3 no-gutters">
+                                    <div class="col-lg-5 col-md-12 col-sm-12">
+                                        <img src="assets/images/articles/article-16.jpg" alt="article-16"
+                                            class="img-fluid w-100">
+                                    </div> <!-- col-lg-5 ends here -->
+
+                                    <div class="col-lg-7 col-md-12 col-sm-12">
+                                        <h5 class="featured-middle-heading">
+                                            <a class="text-capitalize" href="#">Exploring Hong Kong's greenest
+                                                island</a>
+                                        </h5>
+                                    </div> <!-- col-lg-7 ends here -->
+
+                                    <div class="col-lg-5 col-md-12 col-sm-12 mt-2">
+                                        <img src="assets/images/articles/article-17.jpg" alt="article-17"
+                                            class="img-fluid w-100">
+                                    </div> <!-- col-lg-5 ends here -->
+
+                                    <div class="col-lg-7 col-md-12 col-sm-12 ">
+                                        <h5 class="featured-middle-heading">
+                                            <a class="text-capitalize" href="#">'Lost' photos of ancient tribe
+                                                uncovered</a>
+                                        </h5>
+                                    </div> <!-- col-lg-7 ends here -->
+                                </div> <!-- 2nd row div ends here -->
+                            </div> <!-- card body ends here -->
+                        </div> <!-- card ends here -->
+                    </div> <!-- col-lg-5 ends here -->
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 opinion-row">
+                        <div class="card custom-card">
+                            <div class="card-header custom-card-header">
+                                <h4 class="card-title m-0">Opinion <span class="float-right"><i
+                                            class="fas fa-chevron-right"></i></span></h4>
+                            </div>
+
+
+                            <div class="card-img-top">
+                                <img src="assets/images/articles/article-18.jpg" alt="article-18"
+                                    class="img-fluid w-100">
+                            </div>
+
+                            <div class="card-body custom-card-body">
+
+                                <h5 class="opinion-heading py-1">
+                                    <a class="text-capitalize" href="#"><span class="font-weight-bold">David A.
+                                            Andelman:</span> Macron, the strongman Europe needs</a>
+                                </h5>
+
+                                <div class="row no-gutters">
+                                    <div class="col-lg-3 col-md-12 col-sm-12">
+                                        <img src="assets/images/articles/article-19.jpg" alt="article-19"
+                                            class="img-fluid w-100">
+                                    </div> <!-- col-lg-3 ends here -->
+
+                                    <div class="col-lg-9 col-md-12 col-sm-12">
+                                        <h5 class="opinion-middle-heading">
+                                            <a class="text-capitalize" href="#"><span class="font-weight-bold">Oma
+                                                    Seddiq:</span> My life as a student in qatar</a>
+                                        </h5>
+                                    </div> <!-- col-lg-9 ends here -->
+
+                                    <div class="col-lg-3 col-md-12 col-sm-12 mt-2">
+                                        <img src="assets/images/articles/article-20.jpg" alt="article-20"
+                                            class="img-fluid w-100">
+                                    </div> <!-- col-lg-3 ends here -->
+
+                                    <div class="col-lg-9 col-md-12 col-sm-12">
+                                        <h5 class="opinion-middle-heading">
+                                            <a class="text-capitalize" href="#"><span class="font-weight-bold">Laura
+                                                    Beers:</span> History shows theresa may must go</a>
+                                        </h5>
+                                    </div> <!-- col-lg-9 ends here -->
+
+                                    <div class="col-lg-3 col-md-12 col-sm-12 mt-2">
+                                        <img src="assets/images/articles/article-21.jpg" alt="article-21"
+                                            class="img-fluid w-100">
+                                    </div> <!-- col-lg-3 ends here -->
+
+                                    <div class="col-lg-9 col-md-12 col-sm-12">
+                                        <h5 class="opinion-middle-heading">
+                                            <a class="text-capitalize" href="#"><span class="font-weight-bold">James
+                                                    Bloodworth:</span> Rise of the left-wing shakes Uk politics</a>
+                                        </h5>
+                                    </div> <!-- col-lg-9 ends here -->
+
+                                </div> <!-- 2nd row div ends here -->
+                    </div> <!-- card body ends here -->
+                </div> <!-- card ends here -->
+            </div> <!-- col lg 4 ends here  -->
+            </div> <!-- row div ends here -->
+            </div> <!-- container div ends here -->
+            
+        </section> <!-- more news section ends here -->
+
+        <section id="featured-sections" class="pb-5">
+            <div class="container-fluid padding">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-12 featured-col-lg-2">
+                        <h4 class="font-weight-bold">Featured Sections</h4>
+                    </div>
+                    <div class="col-lg-10 col-md-9 col-sm-12 featured-col-lg-10">
+                        <hr class="featured-hr">
+                    </div>
+                </div> <!-- row div ends here -->
+
+                <div class="row mt-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card custom-card">
+                            <div class="card-header custom-card-header">
+                                <h4 class="card-title m-0">Sport <span class="float-right"><i
+                                            class="fas fa-chevron-right"></i></span></h4>
+                            </div>
+
+
+                            <div class="card-img-top">
+                                <img src="assets/images/articles/article-22.jpg" alt="article-22"
+                                    class="img-fluid w-100">
+                            </div>
+
+                            <div class="card-body custom-card-body">
+
+                                <h5 class="featured-section-heading py-1">
+                                    <a class="text-capitalize" href="#">What happens in the 21 hours when soccer stars
+                                        aren't training</a>
+                                </h5>
+
+                                <hr class="article-hr">
+
+                                <p class="top-story">
+                                    <a href="#">Red clay goes 'green' in $400 refurb</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Grapes of success: Buffon ventures into wine business</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Bryan Habana: Rugby star's surprise DNA discovery</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Mario Baloteli isn't trouble, 'he's a good guy'</a>
+                                </p>
+
+                            </div> <!-- card body ends here -->
+                        </div> <!-- card ends here -->
+                    </div> <!-- col-lg-4 ends here -->
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card custom-card">
+                            <div class="card-header custom-card-header">
+                                <h4 class="card-title m-0">Travel <span class="float-right"><i
+                                            class="fas fa-chevron-right"></i></span></h4>
+                            </div>
+
+
+                            <div class="card-img-top">
+                                <img src="assets/images/articles/article-23.jpg" alt="article-23"
+                                    class="img-fluid w-100">
+                            </div>
+
+                            <div class="card-body custom-card-body">
+
+                                <h5 class="featured-section-heading py-1">
+                                    <a class="text-capitalize" href="#">A volcano on an island within a lake within an
+                                        island</a>
+                                </h5>
+
+                                <hr class="article-hr">
+
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                                </p>
+
+                            </div> <!-- card body ends here -->
+                        </div> <!-- card ends here -->
+                    </div> <!-- col-lg-4 ends here -->
+
+                    <div class="col-lg-4 col-md-6 mt-3 col-sm-12 mb-4">
+                        <div class="card custom-card">
+                            <div class="card-header custom-card-header">
+                                <h4 class="card-title m-0">Sports <span class="float-right"><i
+                                            class="fas fa-chevron-right"></i></span></h4>
+                            </div>
+
+
+                            <div class="card-img-top">
+                                <img src="assets/images/articles/article-24.jpg" alt="article-24"
+                                    class="img-fluid w-100">
+                            </div>
+
+                            <div class="card-body custom-card-body">
+
+                                <h5 class="featured-section-heading py-1">
+                                    <a class="text-capitalize" href="#">Incredible photos show the world as you've never
+                                        seen it</a>
+                                </h5>
+
+                                <hr class="article-hr">
+
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                                </p>
+
+                            </div> <!-- card body ends here -->
+                        </div> <!-- card ends here -->
+                    </div> <!-- col-lg-4 ends here -->
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mt-3">
+                        <div class="card custom-card">
+                            <div class="card-header custom-card-header">
+                                <h4 class="card-title m-0">CNN Money <span class="float-right"><i
+                                            class="fas fa-chevron-right"></i></span></h4>
+                            </div>
+
+
+                            <div class="card-img-top">
+                                <img src="assets/images/articles/article-25.jpg" alt="article-25"
+                                    class="img-fluid w-100">
+                            </div>
+
+                            <div class="card-body custom-card-body">
+
+                                <h5 class="featured-section-heading py-1">
+                                    <a class="text-capitalize" href="#">Trump is hurting America</a>
+                                </h5>
+
+                                <hr class="article-hr">
+
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                                </p>
+
+                            </div> <!-- card body ends here -->
+                        </div> <!-- card ends here -->
+                    </div> <!-- col-lg-4 ends here -->
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mt-3">
+                        <div class="card custom-card">
+                            <div class="card-header custom-card-header">
+                                <h4 class="card-title m-0">Health <span class="float-right"><i
+                                            class="fas fa-chevron-right"></i></span></h4>
+                            </div>
+
+
+                            <div class="card-img-top">
+                                <img src="assets/images/articles/article-26.jpg" alt="article-23"
+                                    class="img-fluid w-100">
+                            </div>
+
+                            <div class="card-body custom-card-body">
+
+                                <h5 class="featured-section-heading py-1">
+                                    <a class="text-capitalize" href="#">Fruit and Veggies that could poison you</a>
+                                </h5>
+
+                                <hr class="article-hr">
+
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                                </p>
+
+                                <hr class="article-hr">
+                                <p class="top-story">
+                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                                </p>
+
+                            </div> <!-- card body ends here -->
+                        </div> <!-- card ends here -->
+                    </div> <!-- col-lg-4 ends here -->
+
+                </div> <!-- row div ends here -->
+            </div> <!-- container fluid ends here -->
+        </section> <!-- featured section ends here -->
+
+        <section id="missed">
+            <div class="container-fluid padding">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <h4 class="font-weight-bold text-capitalize text-white">In case you missed it</h4>
+                    </div> <!-- col-lg-3 ends here -->
+                    <div class="col-lg-9 col-md-8 col-sm-12">
+                        <hr class="missed-hr">
+                    </div>
+                </div> <!-- row ends here -->
+
+                <div class="row mt-4">
+                    <div class="col-lg-8">
+                        <img src="assets/images/articles/article-27.jpg" class="img-fluid w-100" alt="article-27">
+                        <h4 class="sub-heading">CNN Exclusive</h4>
+                        <h4 class="missed-heading text-white"><a href="#">Harrowing video shows Syria's war on its own
+                                children</a></h4>
+                    </div>
+                    
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="assets/images/articles/article-28.jpg" class="img-fluid w-100" alt="article-28">
+                        <h4 class="side-heading"><a href="#">Which European Leader Are You?</a></h4>
+
+                        <img src="assets/images/articles/article-29.jpg" class="img-fluid w-100" alt="article-29">
+                        <h4 class="side-heading"><a href="#">Venezuela How Paradise Lost?</a></h4>
+
+                    </div> <!-- col-lg-4 ends here -->
+                     
+                     
+
+                </div> <!-- 2nd row ends here -->
+            </div> <!-- container ends here -->
+        </section> <!-- missed section ends here -->
+    </main>
+
+
+    <footer id="footer" class="py-5 bg-black">
+        <div class="padding">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 weather-row text-white">
+                    <p class="d-inline"><a href="cnn.com/weather" class="weather-info">London, United Kingdom <span><i
+                                    class="fas fa-cloud-sun fa-2x ml-4 mr-2"></i></span> 16 &deg;</a></p>
+                </div> <!-- col-lg-6 ends here -->
+
+                <div class="col-lg-4 col-md-4 col-sm-12 ml-auto">
+                    <div class="input-group">
+
+                        <input class="form-control bg-transparent" placeholder="Search Cnn...">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fas fa-search"></i></span>
+                        </div>
+                    </div> <!-- input group div ends here -->
+                </div> <!-- 2nd col lg 6 ends here -->
+            </div> <!-- row ends here -->
+
+
+            <div class="row no-gutters mt-5">
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <h4 class="text-white">Regions</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">U.S</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Africa</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Americas</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Asia</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">China</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Europe</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Middle East</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Opinion</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <h4 class="text-white">U.S Politics</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">45</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Congress</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Security</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">The Nine</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Trumpmerica</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">State</a></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <h4 class="text-white">Money</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">Business</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Markets</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Tech</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Luxury</a></li>
+
+
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <h4 class="text-white">Entertainment</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">Stars</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Screen</a></li>
+                        <li class="nav-item"><a href="" class="nav-livnk">Binge</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Culture</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Media</a></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <h4 class="text-white">Tech</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">Business</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Culture</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Gadgets</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Future</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Startups</a></li>
+
+
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+                    <h4 class="text-white">Sport</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">Football</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Golf</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Tennis</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Motorsport</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Horseracing</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Equestrian</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Sailing</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Skiing</a></li>
+
+
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4 mt-3">
+                    <h4 class="text-white">Travel</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">Aviation</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Business Traveller</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Destinations</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Features</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Food/Drink</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Hotels</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Partners Hotels</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Skiing</a></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4 mt-3">
+                    <h4 class="text-white">Style</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">Fashion</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Design</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Architechture</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Arts</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Autos</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Luxury</a></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4 mt-3">
+                    <h4 class="text-white">Health</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">Diet + Fitness</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Living Well</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Parenting + Family</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Vital Signs</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4 mt-3">
+                    <h4 class="text-white">Features</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">Freedom Project</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Impact Your World</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Inside Africa</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">2 Degrees</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">All Features</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4 mt-3">
+                    <h4 class="text-white">Video</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">Video News</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Feature Shows</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">HLN</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">TV Shows</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">TV Schedule</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Faces Of CNN Worldwide</a>
+                        </li>
+                        <li class="nav-item"><a href="" class="nav-link">CNNVR</a></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-4 mt-3">
+                    <h4 class="text-white">More...</h4>
+                    <ul class="navbar-nav footer-nav-items d-flex flex-column">
+                        <li class="nav-item"><a href="" class="nav-link">Weather</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">CNN Heroes</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">CNN Profiles</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Leadership</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Pressroom</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Partner Sites</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">iReport</a></li>
+
+
+                    </ul>
+                </div>
+
+            </div> <!-- row ends here -->
+
+            <div class="row mt-5">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+
+                    <div class="dropup">
+                        <button class="btn dropdown-toggle dropdown-text" type="button" id="dropupMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            International Edition <i class="fas fa-plus"></i>
+                        </button>
+
+                        <div class="dropdown-menu custom-menu" aria-labelledby="dropupMenuButton">
+                            <a class="dropdown-item" href="#">U.S</a>
+                            <a class="dropdown-item" href="#">Arabic</a>
+                            <a class="dropdown-item" href="#">Espanol</a>
+                            <a class="dropdown-item" href="#">Pakistan</a>
+
+                            <div class="dropdown-divider"></div>
+
+                            <div class="preferences-content">
+                                <p class="text-right">Set Edition Preferences:</p>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="preferences" id="preference-5"
+                                        value="U.S">
+                                    <label class="form-check-label" for="preference-5">
+                                        U.S
+                                    </label>
+                                </div> <!-- form-check-1 ends here -->
+
+                                <div class="form-check form-check-inline float-right">
+                                    <input class="form-check-input" type="radio" name="preferences" id="preference-6"
+                                        value="International" checked>
+                                    <label class="form-check-label" for="preference-6">
+                                        International
+                                    </label>
+                                </div> <!-- form-check-2 ends here -->
+
+                                <button type="submit"
+                                    class="btn btn-outline-secondary pl-2 float-right mt-2">Confirm</button>
+
+                            </div> <!-- preferences content div ends here -->
+
+                        </div> <!-- dropdown items div ends here -->
+                    </div> <!-- dropdown ends here -->
+
+                </div>
+            </div> <!-- 2nd row ends here  here -->
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12  mt-5  text-white-50 text-right">
+                    <p class="copyright">&copy; Cable News Network. Turner Broadcasting System, Inc. All Rights Reserved</p>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 text-white-50 text-right">
+                    <p>Designed By Talha Tariq</p>
+                </div>
+
+            </div> <!-- 3rd row ends here -->
+
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <ul class="navbar-nav footer-nav flex-row justify-content-end">
+                        <li class="nav-item"><a href="#" class="nav-link">Terms Of Use</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Privacy Policy</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Ad Choices</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Advertise With Us</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Newsletters</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Work For Us</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Transcripts</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Licence Footage</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">CNN Newssource</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+
+        </div> <!-- footer padding ends here -->
+    </footer>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <!-- bootstrap js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
